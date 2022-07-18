@@ -20,12 +20,18 @@ export const GlobalStyle = createGlobalStyle`
 	h1{
 		color: #F06060;
 		font-family: 'MuseoModerno', cursive;
-		font-size: 5rem;
 		text-transform: uppercase;
+		font-size: 4rem;
+		@media (min-width: 760px) {
+			font-size: 6rem;
+		}
 	}
 	h2 {
 		font-family: "Kumbh Sans", sans-serif;
 		font-size: 1.5rem;	
+		@media (max-width: 760px) {
+			font-size: 1rem;
+		}
 	}
 
 `;

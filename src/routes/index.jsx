@@ -4,7 +4,7 @@ import LandingPage from "../pages/LandingPage";
 const Routes = () => {
 	return (
 		<Switch>
-			<Route path="/">
+			<Route exact path="/">
 				<LandingPage />
 			</Route>
 		</Switch>
