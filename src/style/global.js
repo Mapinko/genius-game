@@ -1,15 +1,14 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap');/*h1 font*/
-@import url('https://fonts.googleapis.com/css2?family=Jura:wght@600&display=swap'); /*h2 font*/
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap'); /*h3 font*/
+
 	* {
 		box-sizing: border-box;
 	}
      body{
 		margin:0;
 		padding:0;
+		background-color: #f2ebbf;
      }
 	button{
 		cursor:pointer;
@@ -26,12 +25,20 @@ export const GlobalStyle = createGlobalStyle`
 			font-size: 6rem;
 		}
 	}
-	h2 {
+	h2, h3 {
+		color: #5c4b51;
+		
 		font-family: "Kumbh Sans", sans-serif;
 		font-size: 1.5rem;	
+		text-transform: uppercase;
 		@media (max-width: 760px) {
 			font-size: 1rem;
 		}
 	}
-
+	h3, p, li{
+		font-family: "Kumbh Sans", sans-serif;
+	}
+	p, li{
+		font-weight: 600;
+	}
 `;
