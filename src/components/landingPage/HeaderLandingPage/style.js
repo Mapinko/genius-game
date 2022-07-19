@@ -17,6 +17,9 @@ export const HeaderLanding = styled.header`
 		height: 100vh;
 		width: 50%;
 	}
+	h1 {
+		text-shadow: 2px 2px black;
+	}
 
 	h2 {
 		color: #5c4b51;
