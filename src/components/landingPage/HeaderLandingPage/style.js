@@ -3,20 +3,20 @@ import styled from "styled-components";
 export const HeaderLanding = styled.header`
 	background: #8cbeb2;
 
-	height: fit-content;
-	width: 100%;
+	position: relative;
 
+	width: 100%;
+	height: 350px;
 	display: flex;
 	flex-direction: column-reverse;
 	justify-content: center;
 	align-items: center;
 
 	@media (min-width: 1024px) {
-		position: relative;
-
 		height: 100vh;
 		width: 50%;
 	}
+
 	h1 {
 		text-shadow: 2px 2px black;
 	}
@@ -34,7 +34,7 @@ export const HeaderLanding = styled.header`
 export const SubtitleContainer = styled.div`
 	background: #f3b462;
 
-	position: relative;
+	position: absolute;
 	top: 0;
 
 	width: 100%;
@@ -43,7 +43,7 @@ export const SubtitleContainer = styled.div`
 
 	text-align: center;
 
-	@media (min-width: 1024px) {
+	@media (min-width: 768px) {
 		position: absolute;
 		width: 80%;
 		border-radius: 0 0 15px 15px;
