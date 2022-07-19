@@ -28,8 +28,11 @@ export const GlobalStyle = createGlobalStyle`
 	h1{
 		color: #F06060;
 		font-family: 'MuseoModerno', cursive;
-		text-transform: uppercase;
 		font-size: 4rem;
+
+		text-transform: uppercase;
+		text-shadow: 2px 2px black;
+
 		@media (min-width: 760px) {
 			font-size: 6rem;
 		}
