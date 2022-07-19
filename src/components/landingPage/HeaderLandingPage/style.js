@@ -19,7 +19,6 @@ export const HeaderLanding = styled.header`
 	}
 
 	h1 {
-		text-shadow: 2px 2px black;
 		@media (max-width: 425px) {
 			margin-top: 30%;
 		}
