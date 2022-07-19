@@ -7,6 +7,7 @@ export const HeaderLanding = styled.header`
 
 	width: 100%;
 	height: 350px;
+
 	display: flex;
 	flex-direction: column-reverse;
 	justify-content: center;
@@ -19,6 +20,9 @@ export const HeaderLanding = styled.header`
 
 	h1 {
 		text-shadow: 2px 2px black;
+		@media (max-width: 425px) {
+			margin-top: 30%;
+		}
 	}
 
 	h2 {
