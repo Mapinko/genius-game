@@ -32,10 +32,6 @@ export const GlobalStyle = createGlobalStyle`
 
 		text-transform: uppercase;
 		text-shadow: 2px 2px black;
-
-		@media (min-width: 760px) {
-			font-size: 6rem;
-		}
 	}
 	h2, h3 {
 		color: #5c4b51;
@@ -52,5 +48,9 @@ export const GlobalStyle = createGlobalStyle`
 	}
 	p, li{
 		font-weight: 600;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
 	}
 `;
