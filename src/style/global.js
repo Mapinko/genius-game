@@ -11,7 +11,16 @@ export const GlobalStyle = createGlobalStyle`
 		background-color: #f2ebbf;
      }
 	button{
+		font-family: "Jura", sans-serif;
+		font-weight: bolder;
+		font-size: 1.1rem;
+
 		cursor:pointer;
+		text-transform: uppercase;
+
+		padding: 1em 3em;
+		border: 0 none;
+		border-radius: 20px;
 	}
 	ul, ol, li{
 		list-style:none;
