@@ -30,5 +30,6 @@ export const InstructionSection = styled.section`
 		padding: 0 1em;
 		margin-bottom: 1em;
 		list-style: lower-alpha;
+		font-size: 1.1rem;
 	}
 `;
