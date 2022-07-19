@@ -22,6 +22,9 @@ export const HeaderLanding = styled.header`
 		@media (max-width: 425px) {
 			margin-top: 30%;
 		}
+		@media (min-width: 760px) {
+			font-size: 6rem;
+		}
 	}
 
 	h2 {

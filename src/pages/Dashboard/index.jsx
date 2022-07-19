@@ -1,7 +1,14 @@
+import { ButtonStyle } from "../../components/Button/style";
+import NavBarDesktop from "../../components/NavBarDesktop";
+
 const Dashboard = () => {
 	return (
 		<>
-			<h1>Genius</h1>
+			<NavBarDesktop>
+				<ButtonStyle>Regras</ButtonStyle>
+				<ButtonStyle>Login</ButtonStyle>
+				<ButtonStyle>Criar Conta</ButtonStyle>
+			</NavBarDesktop>
 		</>
 	);
 };
